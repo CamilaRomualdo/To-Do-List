@@ -1,0 +1,8 @@
+<header class="header">
+  <h1>To-Do List</h1>
+  <input class="new-todo"
+         placeholder="Name: "
+         [formControl]="nameForm"
+         (keyup.enter)="createT()"
+         autofocus>
+</header>
